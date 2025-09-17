@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="bscs25106_lab04.css">
+        
+    </head>
+    <title>image</title>
+        <body>
+ <header>
+            <section class="section_0">
+                <nav>
+                  <a href="bscs25106_HOME.html">HOME</a>
+                    <a href="bscs25106_PRODUCTS.html">PRODUCTS</a>
+                    <a href="bscs25106_CONTACT.html">ABOUT US</a>
+                    
+                </nav>
+            </section>
+        </header>
+<section class="products">
+
+    <div class="product-box1" >
+      <img src="bscs25106_img6.jpg" alt="Product 1"width="200px" heigth="200px">
+      <div class="product-info">
+        <h2>Classic T-Shirt</h2>
+        <p>PKR 2,000</p>
+        <p>In Stock</p>
+        <p>A comfortable cotton t-shirt perfect for daily wear. Soft, breathable fabric with a modern cut that suits all body types.</p>
+        <a href=""><button onclick="checkstock('in stock')">Add to cart</button></a>
+      </div>
+    </div>
+
+    <div class="product-box2">
+      <img src="bscs25106_img7.jpg" alt="Product 2"width="200px" heigth="200px">
+      <div class="product-info">
+        <h2>Denim Jacket</h2>
+        <p>PKR 10,000</p>
+        <p>Out of Stock</p>
+        <p>Stylish denim jacket with a vintage wash. Features buttoned cuffs and two front pockets. A must-have for cool weather.</p>
+        <a href=""><button onclick="checkstock('Out of stock')">Add to cart</button></a>
+      </div>
+    </div>
+
+    <div class="product-box3" >
+      <img src="bscs25106_img8.jpg" alt="Product 3"width="200px" heigth="200px">
+      <div class="product-info">
+        <h2>Summer Dress</h2>
+        <p>PKR 7,999</p>
+        <p>In Stock</p>
+        <p>Flowy and light, this summer dress is perfect for sunny days. Comes with adjustable straps and floral patterns.</p>
+        
+          <a href=""><button onclick="checkstock('in stock')">Add to cart</button></a>
+      </div>
+    </div>
+
+    <div class="product-box4" >
+      <img src="bscs25106_img9.jpg" alt="Product 4"width="200px" heigth="200px">
+      <div class="product-info">
+        <h2>White Heels</h2>
+        <p>PKR 14,500</p>
+        <p>In Stock</p>
+        <p>High-performance running shoes with breathable mesh and cushioned soles. Ideal for workouts and long walks.</p>
+      
+        <a href=""><button onclick="checkstock('in stock')">Add to cart</button></a>
+      </div>
+    </div>
+
+    <div class="product-box5" >
+      <img src="bscs25106_img10.jpg" alt="Product 5" width="200px" heigth="200px">
+      <div class="product-info">
+        <h2>Casual Hoodie</h2>
+        <p>PKR 2,999</p>
+        <p>Out of Stock</p>
+        <p>Cozy hoodie with front pockets and adjustable hood. Great for layering or lounging at home on a cold day.</p>
+          <a href=""><button onclick="checkstock('Out of stock')">Add to cart</button></a>
+      </div>
+    </div>
+
+  </section>
+  <div class="chatbot">
+  <div id="chat-log" class="chat-window"></div>
+
+<div class="input-area">
+  <input type="text" id="user-input" placeholder="Enter your message">
+  <button onclick="sendMessage()">Send</button>
+</div>
+</div>
+
+ <script src="bscs25106.js"></script>
+
+        </body>
+        
+</html>
